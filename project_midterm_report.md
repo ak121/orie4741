@@ -25,3 +25,7 @@ I should note that I was still working with only 10% of the data, and around 75%
 In addition to tuning the Random Forest classifier, I want to expand outwards to other ways to classifying, including perhaps a Support Vector Machine with an RBF kernel.
 
 Another thing I want to experiment with is using a smaller list of classes, with each one being more general. I'm currently using all 7 classes seen in the pie chart above for Loan Status, but I might turn it into 3 (early, on time, or late) or maybe even 2 (late or not). This is because some of the 7 categories have relatively small numbers of examples, and because it's likely that the difference between late 16-30 days is not abnormally different from late 31-120 days from the lender's perspective, for example.
+
+# Loan Status with Only Two Categories (blue = good, orange = bad)
+![alt text](loan_status_2_categories.PNG "Loan Status, Good or Bad")
+
